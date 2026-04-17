@@ -1,8 +1,6 @@
-
 # Food Environment Tracker — Georgia
 
-This is a food environment tracker that calculates the swamp index of a county or zip code for Georgia. The Food "Swamp" refers to the excess of fast food in an area that has very 
-little fresh food establishments like a supermarket. This project is to highlight the growing problem of excess processed food establishments that outnumber fresh food establishments.
+
 
 ## Setup
 
