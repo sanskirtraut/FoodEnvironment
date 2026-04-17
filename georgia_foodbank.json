@@ -1,0 +1,447 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-17T01:29:03Z",
+    "timestamp_areas_base": "2026-04-16T15:17:29Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5131017936,
+      "lat": 34.1220622,
+      "lon": -84.5869552,
+      "tags": {
+        "addr:city": "Woodstock",
+        "addr:housenumber": "6551",
+        "addr:postcode": "30189",
+        "addr:state": "GA",
+        "addr:street": "Commerce Parkway",
+        "amenity": "social_facility",
+        "description": "Papa's Pantry is a non profit ministry that partners with individuals and families whose needs range from a critical shortage of food or finances.",
+        "name": "Papa's Pantry",
+        "social_facility": "food_bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12463731437,
+      "lat": 30.9057901,
+      "lon": -83.2650288,
+      "tags": {
+        "amenity": "social_facility",
+        "name": "Food Share Box",
+        "social_facility": "food_bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12559127875,
+      "lat": 30.8310831,
+      "lon": -83.2809743,
+      "tags": {
+        "amenity": "social_facility",
+        "name": "Food Ministries",
+        "operator": "First Baptist Church",
+        "operator:type": "religious",
+        "social_facility": "food_bank",
+        "social_facility:for": "community"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12685169736,
+      "lat": 34.4979765,
+      "lon": -84.9522316,
+      "tags": {
+        "alt_name": "VAC Food Bank",
+        "amenity": "social_facility",
+        "check_date": "2025-03-20",
+        "name": "Voluntary Action Center Food Bank",
+        "opening_hours": "Mo,We,Fr 10:00-14:00",
+        "phone": "+1 706-629-7283",
+        "social_facility": "food_bank",
+        "website": "http://www.voluntaryactioncenter.org"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13358721333,
+      "lat": 31.1816834,
+      "lon": -83.784862,
+      "tags": {
+        "addr:city": "Moultrie",
+        "addr:housenumber": "120",
+        "addr:postcode": "31768",
+        "addr:state": "GA",
+        "addr:street": "3rd Street Northeast",
+        "amenity": "social_facility",
+        "name": "Colquitt County Food Bank",
+        "opening_hours": "Mo-Fi 09:00-11:00; Sa[1] 09:00-11:00",
+        "social_facility": "food_bank",
+        "website": "https://colquittfoodbank.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310894564,
+      "bounds": {
+        "minlat": 33.9687199,
+        "minlon": -83.3865579,
+        "maxlat": 33.9689346,
+        "maxlon": -83.3861282
+      },
+      "nodes": [
+        3163958653,
+        3163958577,
+        3163958492,
+        3163958525,
+        3163958517,
+        3163958559,
+        3163958564,
+        3163958583,
+        3163958595,
+        3163958603,
+        3163958619,
+        3163958622,
+        3163958630,
+        3163958624,
+        3163958634,
+        3163958649,
+        3163958653
+      ],
+      "geometry": [
+        {
+          "lat": 33.9689346,
+          "lon": -83.3861713
+        },
+        {
+          "lat": 33.9688101,
+          "lon": -83.3861282
+        },
+        {
+          "lat": 33.9687199,
+          "lon": -83.3865032
+        },
+        {
+          "lat": 33.9687426,
+          "lon": -83.3865111
+        },
+        {
+          "lat": 33.9687355,
+          "lon": -83.3865404
+        },
+        {
+          "lat": 33.9687862,
+          "lon": -83.3865579
+        },
+        {
+          "lat": 33.9687973,
+          "lon": -83.3865119
+        },
+        {
+          "lat": 33.9688199,
+          "lon": -83.3865197
+        },
+        {
+          "lat": 33.968834,
+          "lon": -83.3864612
+        },
+        {
+          "lat": 33.9688423,
+          "lon": -83.3864641
+        },
+        {
+          "lat": 33.9688744,
+          "lon": -83.3863307
+        },
+        {
+          "lat": 33.968881,
+          "lon": -83.386333
+        },
+        {
+          "lat": 33.9688919,
+          "lon": -83.3862877
+        },
+        {
+          "lat": 33.9688831,
+          "lon": -83.3862846
+        },
+        {
+          "lat": 33.968897,
+          "lon": -83.3862269
+        },
+        {
+          "lat": 33.9689194,
+          "lon": -83.3862346
+        },
+        {
+          "lat": 33.9689346,
+          "lon": -83.3861713
+        }
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "building": "yes",
+        "name": "Athens Area Emergency Food Bank",
+        "social_facility": "food_bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 403880773,
+      "bounds": {
+        "minlat": 30.70591,
+        "minlon": -83.0231424,
+        "maxlat": 30.7061054,
+        "maxlon": -83.0227314
+      },
+      "nodes": [
+        4061804872,
+        4061804873,
+        4061804874,
+        4061804875,
+        4061804872
+      ],
+      "geometry": [
+        {
+          "lat": 30.7060899,
+          "lon": -83.0231424
+        },
+        {
+          "lat": 30.70591,
+          "lon": -83.023133
+        },
+        {
+          "lat": 30.7059255,
+          "lon": -83.0227314
+        },
+        {
+          "lat": 30.7061054,
+          "lon": -83.0227408
+        },
+        {
+          "lat": 30.7060899,
+          "lon": -83.0231424
+        }
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "building": "yes",
+        "name": "Echols County Nutrition Center",
+        "social_facility": "food_bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544213296,
+      "bounds": {
+        "minlat": 31.8240407,
+        "minlon": -81.6415466,
+        "maxlat": 31.8246081,
+        "maxlon": -81.6410488
+      },
+      "nodes": [
+        5260724797,
+        10121902835,
+        10121902838,
+        10121902839,
+        5260724796,
+        5260724795,
+        5260724793,
+        5260724792,
+        5260724789,
+        5260724788,
+        10117700291,
+        5260724794,
+        10117700290,
+        10117700288,
+        10117700289,
+        10117689621,
+        10117689624,
+        5260724790,
+        5260724791,
+        5260724797
+      ],
+      "geometry": [
+        {
+          "lat": 31.824509,
+          "lon": -81.6414548
+        },
+        {
+          "lat": 31.8245519,
+          "lon": -81.6413253
+        },
+        {
+          "lat": 31.8245553,
+          "lon": -81.641304
+        },
+        {
+          "lat": 31.8246035,
+          "lon": -81.6411652
+        },
+        {
+          "lat": 31.8246081,
+          "lon": -81.6411558
+        },
+        {
+          "lat": 31.8243751,
+          "lon": -81.6410488
+        },
+        {
+          "lat": 31.8242921,
+          "lon": -81.6412991
+        },
+        {
+          "lat": 31.8242199,
+          "lon": -81.641266
+        },
+        {
+          "lat": 31.8242073,
+          "lon": -81.641304
+        },
+        {
+          "lat": 31.824113,
+          "lon": -81.6412661
+        },
+        {
+          "lat": 31.8240853,
+          "lon": -81.6413424
+        },
+        {
+          "lat": 31.8241137,
+          "lon": -81.6414225
+        },
+        {
+          "lat": 31.8240407,
+          "lon": -81.6414574
+        },
+        {
+          "lat": 31.8240474,
+          "lon": -81.6414725
+        },
+        {
+          "lat": 31.8241323,
+          "lon": -81.6414296
+        },
+        {
+          "lat": 31.8241661,
+          "lon": -81.6414427
+        },
+        {
+          "lat": 31.8242387,
+          "lon": -81.6414744
+        },
+        {
+          "lat": 31.8243861,
+          "lon": -81.6415466
+        },
+        {
+          "lat": 31.824425,
+          "lon": -81.6414163
+        },
+        {
+          "lat": 31.824509,
+          "lon": -81.6414548
+        }
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "name": "The Joseph House Food Pantry & Clothing Closet",
+        "social_facility": "food_bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1111512411,
+      "bounds": {
+        "minlat": 33.4522091,
+        "minlon": -84.586391,
+        "maxlat": 33.4526891,
+        "maxlon": -84.585873
+      },
+      "nodes": [
+        10168996196,
+        10168996197,
+        10168996198,
+        10168996199,
+        10168996196
+      ],
+      "geometry": [
+        {
+          "lat": 33.452555,
+          "lon": -84.585873
+        },
+        {
+          "lat": 33.4526891,
+          "lon": -84.5861107
+        },
+        {
+          "lat": 33.4523431,
+          "lon": -84.586391
+        },
+        {
+          "lat": 33.4522091,
+          "lon": -84.5861534
+        },
+        {
+          "lat": 33.452555,
+          "lon": -84.585873
+        }
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "name": "Real Life Center",
+        "operator": "Dogwood Church",
+        "operator:type": "religious",
+        "social_facility": "food_bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1414917484,
+      "bounds": {
+        "minlat": 34.2813979,
+        "minlon": -83.1113578,
+        "maxlat": 34.2815717,
+        "maxlon": -83.111063
+      },
+      "nodes": [
+        13002002034,
+        13002002035,
+        13002002036,
+        13002002037,
+        13002002034
+      ],
+      "geometry": [
+        {
+          "lat": 34.2815717,
+          "lon": -83.1113161
+        },
+        {
+          "lat": 34.2815035,
+          "lon": -83.111063
+        },
+        {
+          "lat": 34.2813979,
+          "lon": -83.1111047
+        },
+        {
+          "lat": 34.2814661,
+          "lon": -83.1113578
+        },
+        {
+          "lat": 34.2815717,
+          "lon": -83.1113161
+        }
+      ],
+      "tags": {
+        "amenity": "social_facility",
+        "building": "yes",
+        "name": "The Rainbow Pantry",
+        "social_facility": "food_bank"
+      }
+    }
+  ]
+}
