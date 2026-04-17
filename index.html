@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Food Environment Tracker — Georgia</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+  <h1>Food Environment Tracker</h1>
+  <p class="sub">Food Deserts &amp; Swamps in Georgia — CDC PLACES + OpenStreetMap</p>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="search">Search</button>
+  <button class="tab" data-tab="swamp">Swamp Severity</button>
+  <button class="tab" data-tab="analytics">Analytics</button>
+  <button class="tab" data-tab="manage">Manage</button>
+</nav>
+
+<!-- SEARCH -->
+<section id="search" class="panel active">
+  <h2>Search Establishments by ZIP</h2>
+  <div class="row">
+    <input id="zip" placeholder="ZIP code (e.g. 30303)">
+    <input id="name" placeholder="Name contains…">
+    <button id="searchBtn">Search</button>
+  </div>
+  <div class="two-col">
+    <div>
+      <h3>Healthy <span id="smCount" class="pill"></span></h3>
+      <p class="hint" style="margin:.25rem 0 .5rem">Supermarkets &amp; Food Banks</p>
+      <div id="smList" class="list"></div>
+    </div>
+    <div>
+      <h3>Unhealthy <span id="ffCount" class="pill"></span></h3>
+      <p class="hint" style="margin:.25rem 0 .5rem">Fast Food &amp; Convenience Stores</p>
+      <div id="ffList" class="list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SWAMP -->
+<section id="swamp" class="panel">
+  <h2>Swamp Severity Calculator</h2>
+  <p class="hint">Search by county or ZIP code to compute the RFEI and CDC obesity correlation for that area.</p>
+  <div class="row">
+    <div class="toggle-group">
+      <button class="toggle-btn active" id="modeCounty" data-mode="county">County</button>
+      <button class="toggle-btn" id="modeZip" data-mode="zip">ZIP Code</button>
+    </div>
+    <div id="countyInputs">
+      <input id="countyQ" placeholder="Type county name…" list="countyList" autocomplete="off">
+      <datalist id="countyList"></datalist>
+    </div>
+    <div id="zipInputs" style="display:none">
+      <input id="zipQ" placeholder="Enter ZIP code…" maxlength="5" pattern="\d{5}">
+    </div>
+    <button id="swampBtn">Calculate</button>
+  </div>
+  <div id="swampResult" class="result"></div>
+</section>
+
+<!-- ANALYTICS -->
+<section id="analytics" class="panel">
+  <h2>Establishments Grouped by Census Tract</h2>
+  <p class="hint">Aggregation query: counts of fast food vs. supermarkets per tract (top N by fast-food count).</p>
+  <div class="row">
+    <label>Top <input id="topN" type="number" value="25" min="5" max="200" style="width:5em"></label>
+    <button id="analyticsBtn">Run</button>
+  </div>
+  <table id="analyticsTable"><thead>
+    <tr><th>Tract</th><th>County</th><th>Fast Food</th><th>Convenience</th><th>Supermarket</th><th>Food Bank</th><th>Total</th><th>RFEI</th><th>Population</th><th>Median Income</th></tr>
+  </thead><tbody></tbody></table>
+</section>
+
+<!-- MANAGE -->
+<section id="manage" class="panel">
+  <h2>Manage Establishments (Admin)</h2>
+  <p class="hint">Insert, update fresh-food flag, or delete closed businesses.</p>
+  <fieldset>
+    <legend>Add Establishment</legend>
+    <div class="row wrap">
+      <input id="n_name" placeholder="Name">
+      <input id="n_lat" placeholder="Latitude" type="number" step="any">
+      <input id="n_lon" placeholder="Longitude" type="number" step="any">
+      <input id="n_addr" placeholder="Address">
+      <input id="n_zip" placeholder="ZIP">
+      <input id="n_tract" placeholder="Tract ID (optional)">
+      <select id="n_type"></select>
+      <label><input id="n_fresh" type="checkbox"> Sells fresh food</label>
+      <button id="addBtn">Add</button>
+    </div>
+    <div id="addMsg" class="hint"></div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Find &amp; Modify</legend>
+    <div class="row">
+      <input id="m_q" placeholder="Search by name or ZIP">
+      <button id="m_searchBtn">Find</button>
+    </div>
+    <div id="manageList" class="list"></div>
+  </fieldset>
+</section>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
